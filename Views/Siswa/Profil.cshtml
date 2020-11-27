@@ -1,0 +1,99 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Siswa";
+}
+
+<div class="col-md-12">
+    <h1 style="font-size:18px; margin-bottom:30px;">
+        <i  class="material-icons align-top">group</i>
+        <span>Profil Siswa</span>
+    </h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <img class="foto img-fluid" src="/Asset/Placeholder/rsz_img_0244-min.jpg" alt="FotoPribadi" /><!--ganti src dengan model-->
+                <p>Disini Nama Pengguna</p><!--ganti dengan model-->
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <h1 class="header1">
+                    <i class="material-icons align-top">person</i>
+                Data Pribadi</h1>
+            </div>
+            <div class="datacontainer">
+                <form>
+                    <div class="form-group row">
+                        <label for="NamaLengkap" class="label1 col-sm-3 col-form-label">Nama Lengkap</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="NamaLengkap" value="Insert Name Here" />
+                        </div>
+                        <label for="NISN" class="label1 col-sm-3 col-form-label">NISN</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="NISN" value="Insert NISN Here" />
+                        </div>
+                        <label for="TTL" class="label1 col-sm-3 col-form-label">Tempat / Tanggal Lahir</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="TTL" value="Insert TTL Here" />
+                        </div>
+                        <label for="JenisKelamin" class="label1 col-sm-3 col-form-label">Jenis Kelamin</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="JenisKelamin" value="Insert Jenis Kelamin Here" />
+                        </div>
+                        <label for="Agama" class="label1 col-sm-3 col-form-label">Agama</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="Agama" value="Insert Agama Here" />
+                        </div>
+                        <label for="StatusKeluarga" class="label1 col-sm-3 col-form-label">Status dalam Keluarga</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="StatusKeluarga" value="Insert Status Keluarga Here" />
+                        </div>
+                        <label for="AnakKe" class="label1 col-sm-3 col-form-label">Anak Ke</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="AnakKe" value="Insert Anak ke Berapa Here" />
+                        </div>
+                        <label for="AlamatSiswa" class="label1 col-sm-3 col-form-label">Alamat Peserta Didik</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form1 form-control-plaintext" id="AlamatSiswa" value="Insert Alamat Siswa Here" />
+                        </div>
+                        <label for="Telepon" class="label1 col-sm-3 col-form-label">Nomor Telepon Rumah</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form-control-plaintext" id="Telepon" value="Insert Telepon Rumah Here" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h1 class="header1">
+                    <i class="material-icons align-top">people_alt</i> Data Orang Tua
+                </h1>
+            </div>
+            <div class="datacontainer">
+                <form>
+                    <div class="form-group row">
+                        <label for="NamaAyah" class="label1 col-sm-3 col-form-label">Nama Ayah</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form-control-plaintext" id="NamaAyah" value="Insert Name Here" />
+                        </div>
+                        <label for="NamaIbu" class="label1 col-sm-3 col-form-label">Nama Ibu</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form-control-plaintext" id="NamaIbu" value="Insert Name Here" />
+                        </div>
+                        <label for="AlamatOrtu" class="label1 col-sm-3 col-form-label">Alamat Orang Tua</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form-control-plaintext" id="AlamatOrtu" value="Insert Alamat Here" />
+                        </div>
+                        <label for="TelponOrtu" class="label1 col-sm-3 col-form-label">Nomor Telepon Orang Tua</label>
+                        <div class="form1 col-sm-9">
+                            <input type="text" readonly class="form-control-plaintext" id="TelponOrtu" value="Insert Nomor Telepon Here" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
